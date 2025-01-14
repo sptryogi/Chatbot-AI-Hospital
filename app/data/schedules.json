@@ -1,0 +1,122 @@
+[
+    {
+        "doctor": "Dr. Andi Pratama",
+        "specialty": "Kardiolog",
+        "days": ["Senin", "Rabu", "Jumat"],
+        "times": ["10:00 - 12:00", "14:00 - 16:00"]
+    },
+    {
+        "doctor": "Dr. Budi Santoso",
+        "specialty": "Neurolog",
+        "days": ["Selasa", "Kamis"],
+        "times": ["09:00 - 11:00", "13:00 - 15:00"]
+    },
+    {
+        "doctor": "Dr. Clara Sari",
+        "specialty": "Derma",
+        "days": ["Senin", "Selasa", "Kamis"],
+        "times": ["11:00 - 13:00", "15:00 - 17:00"]
+    },
+    {
+        "doctor": "Dr. David Wijaya",
+        "specialty": "Pediater",
+        "days": ["Senin", "Rabu"],
+        "times": ["08:00 - 10:00", "12:00 - 14:00"]
+    },
+    {
+        "doctor": "Dr. Emiliana Kartika",
+        "specialty": "Ortopedi",
+        "days": ["Selasa", "Jumat"],
+        "times": ["10:00 - 12:00", "16:00 - 18:00"]
+    },
+    {
+        "doctor": "Dr. Sarah Hidayati",
+        "specialty": "Praktisi Umum",
+        "days": ["Senin", "Jumat"],
+        "times": ["09:00 - 12:00", "13:00 - 17:00"]
+    },
+    {
+        "doctor": "Dr. Joko Sutrisno",
+        "specialty": "Androlog",
+        "days": ["Selasa", "Kamis"],
+        "times": ["10:00 - 12:00", "14:00 - 16:00"]
+    },
+    {
+        "doctor": "Dr. Rina Kusuma",
+        "specialty": "Endokrin",
+        "days": ["Rabu", "Jumat"],
+        "times": ["09:00 - 11:00", "13:00 - 15:00"]
+    },
+    {
+        "doctor": "Dr. Miko Rahman",
+        "specialty": "Ahli Bedah",
+        "days": ["Senin", "Kamis"],
+        "times": ["10:00 - 13:00", "14:00 - 17:00"]
+    },
+    {
+        "doctor": "Dr. Olivia Sembiring",
+        "specialty": "Obstetri",
+        "days": ["Selasa", "Jumat"],
+        "times": ["08:00 - 10:00", "14:00 - 16:00"]
+    },
+    {
+        "doctor": "Dr. Lukas Setiawan",
+        "specialty": "Onkologi",
+        "days": ["Rabu", "Jumat"],
+        "times": ["11:00 - 13:00", "15:00 - 17:00"]
+    },
+    {
+        "doctor": "Dr. Nani Kurniawan",
+        "specialty": "Psikiater",
+        "days": ["Senin", "Kamis"],
+        "times": ["10:00 - 12:00", "14:00 - 16:00"]
+    },
+    {
+        "doctor": "Dr. Thomas Prabowo",
+        "specialty": "Ahli Pencernaan",
+        "days": ["Selasa", "Jumat"],
+        "times": ["09:00 - 11:00", "13:00 - 15:00"]
+    },
+    {
+        "doctor": "Dr. Sofia Malika",
+        "specialty": "Pulmonologi",
+        "days": ["Senin", "Rabu"],
+        "times": ["08:00 - 10:00", "12:00 - 14:00"]
+    },
+    {
+        "doctor": "Dr. Hendrik Salim",
+        "specialty": "Reumatologi",
+        "days": ["Selasa", "Kamis"],
+        "times": ["09:00 - 11:00", "13:00 - 15:00"]
+    },
+    {
+        "doctor": "Dr. Emma Putri",
+        "specialty": "Nephrologi",
+        "days": ["Rabu", "Jumat"],
+        "times": ["10:00 - 12:00", "14:00 - 16:00"]
+    },
+    {
+        "doctor": "Dr. Daniel Nugroho",
+        "specialty": "Spesialis THT",
+        "days": ["Senin", "Jumat"],
+        "times": ["08:00 - 10:00", "12:00 - 14:00"]
+    },
+    {
+        "doctor": "Dr. Grace Tan",
+        "specialty": "Ahli Alergi",
+        "days": ["Selasa", "Kamis"],
+        "times": ["10:00 - 12:00", "14:00 - 16:00"]
+    },
+    {
+        "doctor": "Dr. Jack Gunawan",
+        "specialty": "Fisioterapis",
+        "days": ["Senin", "Rabu", "Jumat"],
+        "times": ["09:00 - 11:00", "13:00 - 15:00"]
+    },
+    {
+        "doctor": "Dr. Lily Permata",
+        "specialty": "Chiropractor",
+        "days": ["Selasa", "Jumat"],
+        "times": ["08:00 - 10:00", "14:00 - 16:00"]
+    }
+]

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot AI Hospital</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Chatbot AI Hospital</h1>
+    <p>Temukan jadwal dokter, booking janji temu, dapatkan tips kesehatan, dan gunakan chatbot kami!</p>
+  </header>
+
+  <main>
+    <!-- Search Schedule Section -->
+    <section id="search-schedule">
+      <h2>Pencarian Jadwal Dokter</h2>
+      <form id="searchForm">
+        <label for="doctor">Nama Dokter:</label>
+        <input type="text" id="doctor" name="doctor" placeholder="Masukkan nama dokter...">
+        <label for="specialty">Spesialisasi:</label>
+        <input type="text" id="specialty" name="specialty" placeholder="Masukkan spesialisasi...">
+        <button type="submit">Cari</button>
+      </form>
+      <div id="searchResults"></div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="book-appointment">
+      <h2>Booking Janji Temu</h2>
+      <form id="bookingForm">
+        <label for="book-doctor">Nama Dokter:</label>
+        <input type="text" id="book-doctor" name="doctor" placeholder="Masukkan nama dokter..." required>
+        <label for="book-date">Tanggal:</label>
+        <input type="date" id="book-date" name="date" required>
+        <label for="book-time">Waktu:</label>
+        <input type="time" id="book-time" name="time" required>
+        <label for="patient-name">Nama Pasien:</label>
+        <input type="text" id="patient-name" name="patient_name" placeholder="Masukkan nama pasien..." required>
+        <button type="submit">Booking</button>
+      </form>
+      <div id="bookingResponse"></div>
+    </section>
+
+    <!-- Booking History Section -->
+    <section id="booking-history-section">
+        <h2>Riwayat Booking</h2>
+        <table id="bookingHistoryTable">
+          <thead>
+            <tr>
+              <th>Nama Dokter</th>
+              <th>Tanggal</th>
+              <th>Waktu</th>
+              <th>Nama Pasien</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Riwayat Booking akan dimuat di sini -->
+          </tbody>
+        </table>
+      </section>
+  
+
+    <!-- Chatbot Section -->
+    <section id="chatbot">
+      <h2>Chatbot AI</h2>
+      <form id="chatForm">
+        <label for="chatInput">Pertanyaan Anda:</label>
+        <input type="text" id="chatInput" name="question" placeholder="Tulis pertanyaan Anda di sini..." required>
+        <button type="submit">Tanya Bot</button>
+      </form>
+      <div id="chatResponse"></div>
+    </section>
+
+    <!-- Health Tips Section -->
+    <section id="health-tips">
+      <h2>Tips Kesehatan</h2>
+      <form id="tipsForm">
+        <label for="tipsQuery">Cari Tips Kesehatan:</label>
+        <input type="text" id="tipsQuery" name="query" placeholder="Masukkan topik kesehatan..." required>
+        <button type="submit">Cari Tips</button>
+      </form>
+      <div id="tipsResults"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chatbot AI Hospital. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
